@@ -6,6 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <script src="js/bootstrap.bundle.min.js"></script>
+    <style>
+        .banner-img {
+            background: url(images/undraw_share_link_qtxe.png);
+            background-size: cover;
+            height: 400rem;
+        }
+        .blue-bg {
+            background-color: #051e50;
+            background-size: cover;
+        }
+    </style>
     <title>Document</title>
 </head>
 <body>
@@ -31,6 +42,32 @@
                 <li class="nav-item pe-lg-5"><a href="#" class="nav-link rounded btn btn-primary text-white text-center mx-3">Get a Quote</a></li>
             </ul>
         </nav>
+    </div>
+    <main class="container-fluid">
+        <div class="row banner-img vh-100">
+            <div class="col-12 col-lg-8 d-flex flex-column p-5">
+                <h1 class="display-3 fw-bold text-start ms-5 mt-5">Short links, big results</h1>
+                <p class="lead fs-4 text-start ms-5 text-muted">A URL shortener built with powerful tools to help you grow and protect your brand.</p>
+                <button class="btn btn-primary btn-lg me-lg-auto ms-5 mt-4 px-lg-4 py-lg-3">Get Started fo Free</button>
+                <p class="ms-5 ps-lg-5"><a href="#" class="text-decoration-none">Get a Quote</a></p>
+            </div>
+        </div>
+    </main>
+    <div class="blue-bg px-5 py-4">
+        <form action="">
+            <div class="row">
+                <div class="col-12 col-lg-8 form-floating">
+                    <input type="text" class="form-control p-4" name="link" id="link" placeholder="Shorten your link">
+                    <label for="link">Shorten your link</label>
+                </div>
+                <div class="col-12 col-lg-4 mt-2 mt-lg-0">
+                    <button class="btn btn-primary p-3 px-5 w-100">Shorten</button>
+                </div>
+                <div class="col-12">
+                    <p class="text-center text-muted"><small>By clicking SHORTEN, you are agreeing to Bitly’s Terms of Service and Privacy Policy</small></p>
+                </div>
+            </div>
+        </form>
     </div>
 </body>
 </html>
