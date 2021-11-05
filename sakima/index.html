@@ -15,52 +15,50 @@
 
 <body style="background: url(&quot;assets/img/forest-bg.jpg&quot;) repeat;opacity: 1;filter: blur(0px);">
     <div style="background: var(--bs-gray-100);margin-bottom: 0px;">
-        <div class="d-flex flex-row justify-content-between" style="height: 159px;margin: -11px;margin-top: 0px;margin-right: 5px;margin-bottom: -15px;margin-left: 5px;">
-            <div><img src="assets/img/LogoSakima.jpg"></div>
+        <div class="d-md-flex flex-row justify-content-between d-none" style="height: 159px;margin: -11px;margin-top: 0px;margin-right: 5px;margin-bottom: -15px;margin-left: 5px;">
+            <div><img class="img-fluid" src="assets/img/LogoSakima.jpg"></div>
             <div style="width: 211px;height: 179px;margin: -27px;margin-top: -17px;margin-right: 23px;"><img src="assets/img/Drapeau-RDC_240.gif"></div>
         </div>
-        <nav class="navbar navbar-light navbar-expand-md navigation-clean" style="border-radius: 0px;height: 47px;background: rgb(32, 64, 128);">
-            <div class="container-fluid">
-                <button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1" style="margin-left: auto;margin-right: auto;">
+        <nav class="navbar navbar-dark navbar-expand-md bg-dark" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand text-uppercase d-md-none text-expanded" href="#">
+                    <img class="img-fluid w-50" src="assets/img/LogoSakima.jpg" alt="Logosakima">
+                </a>
+                <button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navbarResponsive">
                     <span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse d-flex justify-content-center" id="navcol-1">
-                    <ul class="navbar-nav d-flex justify-content-center align-items-center" style="max-width: none;padding-right: 0px;padding-left: 0px;width: auto;">
-                        <li class="nav-item"><a class="nav-link active" data-bss-hover-animate="pulse" href="#" style="color: var(--bs-white);font-family: Ubuntu, sans-serif;">First Item</a></li>
-                        <li class="nav-item"><a class="nav-link" data-bss-hover-animate="pulse" href="#" style="color: var(--bs-white);font-family: Ubuntu, sans-serif;">Second Item</a></li>
-                        <li class="nav-item"><a class="nav-link" data-bss-hover-animate="pulse" href="#" style="color: var(--bs-white);font-family: Ubuntu, sans-serif;">Third Item</a></li>
-                        <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" data-bss-hover-animate="pulse" href="#" style="color: var(--bs-white);font-family: Ubuntu, sans-serif;">Dropdown </a>
-                            <div class="dropdown-menu"><a class="dropdown-item" href="#">First Item</a><a class="dropdown-item" href="#">Second Item</a><a class="dropdown-item" href="#">Third Item</a></div>
-                        </li>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
-        <div class="container" style="margin-bottom: 0px;padding-bottom: 1px;">
-            <div class="row justify-content-center bounce animated" style="margin: 30px;margin-top: 30px;margin-bottom: 30px;margin-right: 10px;margin-left: 10px;text-align: center;">
+        <div class="container-fluid pb-1">
+            <div class="row justify-content-center bounce animated m-3 gy-2" style="text-align: center;">
                 <div class="col-md-3">
-                    <div class="card" style="border-radius: 0px;"><img class="card-img w-100 d-block" src="assets/img/background-card.jpg" style="height: 83.625px;border-radius: 0px;">
+                    <div class="card" style="border-radius: 0px;"><img class="card-img w-100 d-block img-fuid" src="assets/img/background-card.jpg" style="height: 83.625px;border-radius: 0px;">
                         <div class="card-img-overlay d-flex justify-content-center align-items-center" style="border-radius: 0px;">
                             <h4 class="text-center" style="color: var(--bs-white);font-weight: bold;text-align: center;font-family: Ubuntu, sans-serif;">NOS PARTENAIRES</h4>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div class="card"><img class="card-img w-100 d-block" src="assets/img/background-card.jpg" style="height: 83.625px;border-radius: 0px;">
+                    <div class="card"><img class="card-img w-100 d-block img-fuid" src="assets/img/background-card.jpg" style="height: 83.625px;border-radius: 0px;">
                         <div class="card-img-overlay d-flex justify-content-center align-items-center" style="border-radius: 0px;">
                             <h4 class="text-center" style="color: var(--bs-white);font-weight: bold;text-align: center;font-family: Ubuntu, sans-serif;">NOS PARTENAIRES</h4>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div class="card"><img class="card-img w-100 d-block" src="assets/img/background-card.jpg" style="height: 83.625px;border-radius: 0px;">
+                    <div class="card"><img class="card-img w-100 d-block img-fuid" src="assets/img/background-card.jpg" style="height: 83.625px;border-radius: 0px;">
                         <div class="card-img-overlay d-flex justify-content-center align-items-center" style="border-radius: 0px;">
                             <h4 class="text-center" style="color: var(--bs-white);font-weight: bold;text-align: center;font-family: Ubuntu, sans-serif;">NOS PARTENAIRES</h4>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div class="card"><img class="card-img w-100 d-block" src="assets/img/background-card.jpg" style="height: 83.625px;border-radius: 0px;">
+                    <div class="card"><img class="card-img w-100 d-block img-fuid" src="assets/img/background-card.jpg" style="height: 83.625px;border-radius: 0px;">
                         <div class="card-img-overlay d-flex justify-content-center align-items-center" style="border-radius: 0px;">
                             <h4 class="text-center" style="color: var(--bs-white);font-weight: bold;text-align: center;font-family: Ubuntu, sans-serif;">NOS PARTENAIRES</h4>
                         </div>
