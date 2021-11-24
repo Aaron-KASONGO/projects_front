@@ -11,17 +11,25 @@
     <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
     <link rel="stylesheet" href="assets/css/styles.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-    <style></style>
+    <script src="assets/js/script.min.js"></script>
+    <script src="assets/js/index.js"></script>
+    <style>
+        .hove:hover{
+            background: transparent;
+            box-shadow: none;
+        }
+        @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&family=Ubuntu:wght@500&display=swap');
+    </style>
 </head>
-
 <body style="background: url(&quot;assets/img/forest-bg.jpg&quot;) repeat;opacity: 1;filter: blur(0px);">
     <div style="background: var(--bs-gray-100);margin-bottom: 0px;">
         <div class="d-md-flex flex-row justify-content-between d-none" style="height: 159px;margin: -11px;margin-top: 0px;margin-right: 5px;margin-bottom: -15px;margin-left: 5px;">
-            <div><img class="img-fluid" src="assets/img/LogoSakima.jpg"></div>
-            <div style="width: 211px;height: 179px;margin: -27px;margin-top: -17px;margin-right: 23px;"><img src="assets/img/Drapeau-RDC_240.gif"></div>
+            <div class="pt-2"><img class="img-fluid" src="assets/img/LogoSakima.jpg"></div>
+            <div class="py-auto"><img class="w-75 ms-5" src="assets/img/Drapeau-RDC_240.gif"></div>
         </div>
-        <nav class="navbar navbar-dark navbar-expand-md bg-dark" id="mainNav">
-            <div class="container">
+        <nav class="navbar navbar-dark navbar-expand-md" style="background-color: #0d438d;" id="mainNav">
+            <div class="container-fluid">
                 <a class="navbar-brand text-uppercase d-md-none text-expanded" href="#">
                     <img class="img-fluid w-50" src="assets/img/LogoSakima.jpg" alt="Logosakima">
                 </a>
@@ -30,38 +38,62 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav mx-auto">
-                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="index.html" style="font-family: Ubuntu, sans-serif;"><small class="hove">ACCUEIL</small></a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html" style="font-family: Ubuntu, sans-serif;"><small>A PROPOS DE SAKIMA</small></a></li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" style="font-family: Ubuntu, sans-serif;"><small>PRESENTATION</small></a>
+                            <ul class="dropdown-menu" style="background-color: #0d438d;">
+                                <li class="dropdown-item"><a href="#" class="text-decoration-none text-white">Historique</a></li>
+                                <hr>
+                                <li class="dropdown-item"><a href="#" class="text-decoration-none text-white">Organisation administrative</a></li>
+                                <hr>
+                                <li class="dropdown-item"><a href="#" class="text-decoration-none text-white">Contacts</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="index.html" style="font-family: Ubuntu, sans-serif;">
+                                <small>ACTIVITES SAKIMA</small>
+                            </a>
+                            <ul class="dropdown-menu" style="background-color: #0d438d;">
+                                <li class="dropdown-item"><a href="#" class="text-decoration-none text-white">Activités minières</a></li>
+                                <hr>
+                                <li class="dropdown-item"><a href="#" class="text-decoration-none text-white">Activités non minières</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="index.html" style="font-family: Ubuntu, sans-serif;"><small>SUBSTANCES MINIRALES</small></a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html" style="font-family: Ubuntu, sans-serif;"><small>PORTEFEUILLE</small></a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html" style="font-family: Ubuntu, sans-serif;"><small>CONTACTS</small></a></li>
                     </ul>
                 </div>
             </div>
         </nav>
         <div class="container-fluid pb-1">
-            <div class="row justify-content-center bounce animated m-3 gy-2" style="text-align: center;">
-                <div class="col-md-3">
+            <div class="row justify-content-center bounce animated m-3 gy-2 gx-4 mx-lg-5" style="text-align: center;">
+                <div class="col-6 col-md-3">
                     <div class="card" style="border-radius: 0px;"><img class="card-img w-100 d-block img-fuid" src="assets/img/background-card.jpg" style="height: 83.625px;border-radius: 0px;">
                         <div class="card-img-overlay d-flex justify-content-center align-items-center" style="border-radius: 0px;">
-                            <h4 class="text-center" style="color: var(--bs-white);font-weight: bold;text-align: center;font-family: Ubuntu, sans-serif;">NOS PARTENAIRES</h4>
+                            <h4 class="text-center fs-6 my-auto" style="color: var(--bs-white);font-weight: bold;text-align: center;font-family: Ubuntu, sans-serif;">NOS PARTENAIRES</h4>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-6 col-md-3">
                     <div class="card"><img class="card-img w-100 d-block img-fuid" src="assets/img/background-card.jpg" style="height: 83.625px;border-radius: 0px;">
                         <div class="card-img-overlay d-flex justify-content-center align-items-center" style="border-radius: 0px;">
-                            <h4 class="text-center" style="color: var(--bs-white);font-weight: bold;text-align: center;font-family: Ubuntu, sans-serif;">NOS PARTENAIRES</h4>
+                            <h4 class="text-center fs-6 my-auto" style="color: var(--bs-white);font-weight: bold;text-align: center;font-family: Ubuntu, sans-serif;">LA FONDATION SAKIMA</h4>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-6 col-md-3">
                     <div class="card"><img class="card-img w-100 d-block img-fuid" src="assets/img/background-card.jpg" style="height: 83.625px;border-radius: 0px;">
                         <div class="card-img-overlay d-flex justify-content-center align-items-center" style="border-radius: 0px;">
-                            <h4 class="text-center" style="color: var(--bs-white);font-weight: bold;text-align: center;font-family: Ubuntu, sans-serif;">NOS PARTENAIRES</h4>
+                            <h4 class="text-center fs-6 my-auto" style="color: var(--bs-white);font-weight: bold;text-align: center;font-family: Ubuntu, sans-serif;">RAPPORTS DUE DILIGENCE</h4>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-6 col-md-3">
                     <div class="card"><img class="card-img w-100 d-block img-fuid" src="assets/img/background-card.jpg" style="height: 83.625px;border-radius: 0px;">
                         <div class="card-img-overlay d-flex justify-content-center align-items-center" style="border-radius: 0px;">
-                            <h4 class="text-center" style="color: var(--bs-white);font-weight: bold;text-align: center;font-family: Ubuntu, sans-serif;">NOS PARTENAIRES</h4>
+                            <h4 class="text-center fs-6 my-auto" style="color: var(--bs-white);font-weight: bold;text-align: center;font-family: Ubuntu, sans-serif;">RAPPORTS ANNUELS ET ETATS FINENCIERS</h4>
                         </div>
                     </div>
                 </div>
@@ -79,41 +111,59 @@
         </div>
     </div>
     <div style="background: var(--bs-gray-100);margin: 0px;padding: 30px;">
-        <div class="container">
-            <div class="row" style="margin-right: -12px;">
-                <div class="col-md-3"></div>
-                <div class="col-md-3"></div>
-                <div class="col-md-3"></div>
-                <div class="col-md-3"></div>
+        <div class="container-fluid">
+            <div class="row g-2" style="margin-right: -12px;">
+                <div class="col-12 col-md-6 col-lg-3">
+                    <img src="assets/img/Centrale-Kalima-1.jpg" alt="Centrale-Kalima-1" class="card-img rounded-0">
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <img src="assets/img/Chauffage-SnO2.jpg" alt="Chauffage-SnO2" class="card-img rounded-0">
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <img src="assets/img/Labo-intr.jpg" alt="Labo-intr" class="card-img rounded-0">
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <img src="assets/img/Labo.jpg" alt="Labo" class="card-img rounded-0">
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <img src="assets/img/Separation.jpg" alt="Separation" class="card-img rounded-0">
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <img src="assets/img/SM.jpg" alt="SM" class="card-img rounded-0">
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <img src="assets/img/TAS.jpg" alt="TAS" class="card-img rounded-0">
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <img src="assets/img/Usine.png" alt="Usine" class="card-img rounded-0">
+                </div>
             </div>
         </div>
     </div>
-    <footer class="footer-dark">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6 col-md-3 item">
-                    <h3>Services</h3>
-                    <ul>
-                        <li><a href="#">Web design</a></li>
-                        <li><a href="#">Development</a></li>
-                        <li><a href="#">Hosting</a></li>
-                    </ul>
+    <footer class="py-3 px-3" style="background-color: #0d438d;">
+        <div class="container-fluid">
+            <div class="row gy-3">
+                <div class="col-12 col-md-4 justify-content-center border-end">
+                    <h6 class="text-white text-center" style="font-family: Ubuntu, sans-serif;"><small>Siège Social</small></h6>
+                    <p class="text-center text-white" style="font-family: Ubuntu condensed, sans-serif;">
+                        <small>Avenue Lt Colonel Lukusa n°361 <br>Immeuble Crédit Foncier d'Afrique Centrale <br>Kinshasa-Gombe<br>Tel.:+243 99 83 49 351/+243 99 99 46 421</small>
+                    </p>
                 </div>
-                <div class="col-sm-6 col-md-3 item">
-                    <h3>About</h3>
-                    <ul>
-                        <li><a href="#">Company</a></li>
-                        <li><a href="#">Team</a></li>
-                        <li><a href="#">Careers</a></li>
-                    </ul>
+                <div class="col-12 col-md-4 justify-content-center border-end">
+                    <h6 class="text-white text-center" style="font-family: Ubuntu, sans-serif;"><small>SAKIMA S.A. Entreprise du portefeuille de l'Etat</small></h6>
+                    <p class="text-center text-white" style="font-family: Ubuntu condensed, sans-serif;">
+                        <small>RCCM: CD/KIN/RCCM/14-B-5785  ID.NAT.k30899W<br>Import-Export:A/001-13/I 004138 E/X<br>Tél.:+243 99 34 62 002/+243 89 78 65 109<br>E-mail.sakimardc@sakima.cd/sakimardc@yahoo.fr</small>
+                    </p>
                 </div>
-                <div class="col-md-6 item text">
-                    <h3>Company Name</h3>
-                    <p>Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus ac sem lacus. Ut vehicula rhoncus elementum. Etiam quis tristique lectus. Aliquam in arcu eget velit pulvinar dictum vel in justo.</p>
+                <div class="col-12 col-md-4 justify-content-center border-end">
+                    <h6 class="text-white text-center" style="font-family: Ubuntu, sans-serif;"><small>Siège d'Exploitation</small></h6>
+                    <p class="text-center text-white" style="font-family: Ubuntu condensed, sans-serif;">
+                        <small>Avenue Lt Colonel Lukusa n°361 <br>Immeuble Crédit Foncier d'Afrique Centrale <br>Kinshasa-Gombe<br>Tel.:+243 99 83 49 351/+243 99 99 46 421</small>
+                    </p>
                 </div>
-                <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div>
             </div>
-            <p class="copyright">Company Name © 2021</p>
+            <hr class="border-top">
+            <p class="text-center text-white" style="font-family: Ubuntu condensed, sans-serif;"><small>Copyright © 2012-2021. Société Aurifère du kivu et du Maniema. Tous droits réservés. <br>Designed by Computer Solutions.</small></p>
         </div>
     </footer>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
