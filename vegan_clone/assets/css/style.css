@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Shalimar&display=swap');
+
+.img-bg {
+    background-image: url(../img/Emmanuel-Dena-Mwana-feat-El-Georges.jpg);
+    background-size: cover;
+    background-repeat:inherit;
+    height: 100vh;
+}
+
+.shalimar {
+    font-family: 'Shalimar', cursive;
+}
+
+.montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.img-size {
+    width: 500px;
+    height: 500px;
+}
+
+.img-scale:hover {
+    scale: 1.5px;
+}
