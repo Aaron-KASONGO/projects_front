@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Shalimar&display=swap');
+
+.shalimar {
+    font-family: 'Shalimar', cursive;
+}
+
+.montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.img-carousel {
+    width: 1400px;
+    height: 400px;
+    background-size: cover;
+}
