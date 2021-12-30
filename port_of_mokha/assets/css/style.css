@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Shalimar&display=swap');
 
+.video-bg {
+    background-size: cover;
+    height: 100vh;
+}
+
 .shalimar {
     font-family: 'Shalimar', cursive;
 }
