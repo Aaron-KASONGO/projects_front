@@ -9,7 +9,181 @@
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <title>Document</title>
 </head>
-<body>
-    
+<body class="bg-light">
+    <div class="position-absolute w-100" id="about">
+        <div id="carouselExampleIndicators" class="carousel" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="assets/img/pexels-caio-67112.jpg" class="d-block w-100 img-carousel" alt="carousel 1">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/img/pexels-christina-morillo-1181271.jpg" class="d-block w-100 img-carousel" alt="carousel 2">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/img/pexels-fauxels-3184418.jpg" class="d-block w-100 img-carousel" alt="carousel 3">
+              </div>
+            </div>
+        </div>
+    </div>
+    <div class="img-containt">
+        <div class="container h-100">
+            <div class="row h-100">
+                <div class="col-12 col-md-6 d-flex justify-content-center justify-content-md-end align-items-center order-md-2" style="z-index: 1;">
+                    <div class="border border-3 border-secondary p-1 rounded-circle floating">
+                        <img src="assets/img/profil.jpg" alt="profile" class="img-fluid img-profil rounded-circle">
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 d-flex flex-column justify-content-center text-white order-md-1" style="z-index: 1;">
+                    <h3 class="display-5 unbuntu-mono fw-bold text-center text-md-start">Aaron KASONGO</h3>
+                    <p class="montserrat text-center text-md-start">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus nobis quisquam, natus quo reprehenderit dignissimos consequuntur eaque illo alias. Necessitatibus quisquam nobis excepturi rerum ut assumenda quos vero facere quia?</p>
+                    <div class="mt-3">
+                        <button class="btn btn-secondary">Contact me</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="navbar navbar-expand-md navbar-dark py-3" style="background-color: #000000;">
+        <div class="container">
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse" id="nav">
+                <ul class="navbar-nav mx-auto inconsolata">
+                    <li class="nav-item"><a href="#about" class="nav-link">A Propos</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link ms-md-5">Projets</a></li>
+                    <li class="nav-item"><a href="#services" class="nav-link ms-md-5">Services</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link ms-md-5">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="my-5" id="projects">
+        <div class="container-fluid container-md">
+            <h2 class="h2 text-center inconsolata fw-bold">Projets</h2>
+            <div class="row my-3 gy-4">
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="card p-4 pb-0 shadow bg-light rounded-0 img-card-hover">
+                        <img src="assets/img/pexels-pixabay-34225.jpg" alt="carte 1" class="card-img-top img-fluid rounded-0">
+                        <div class="card-body">
+                            <h4 class="card-title nunito fw-bold text-center">Premier Projet</h4>
+                            <p class="card-text nunito fw-bold text-center text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima id porro tempore.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="card p-4 pb-0 shadow bg-light rounded-0 img-card-hover">
+                        <img src="assets/img/pexels-miguel-á-padriñán-2882690.jpg" alt="carte 1" class="card-img-top img-fluid rounded-0">
+                        <div class="card-body">
+                            <h4 class="card-title nunito fw-bold text-center">Premier Projet</h4>
+                            <p class="card-text nunito fw-bold text-center text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima id porro tempore.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="card p-4 pb-0 shadow bg-light rounded-0 img-card-hover">
+                        <img src="assets/img/pexels-fauxels-3184418.jpg" alt="carte 1" class="card-img-top img-fluid rounded-0">
+                        <div class="card-body">
+                            <h4 class="card-title nunito fw-bold text-center">Premier Projet</h4>
+                            <p class="card-text nunito fw-bold text-center text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima id porro tempore.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="card p-4 pb-0 shadow bg-light rounded-0 img-card-hover">
+                        <img src="assets/img/pexels-christina-morillo-1181271.jpg" alt="carte 1" class="card-img-top img-fluid rounded-0">
+                        <div class="card-body">
+                            <h4 class="card-title nunito fw-bold text-center">Premier Projet</h4>
+                            <p class="card-text nunito fw-bold text-center text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima id porro tempore.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="card p-4 pb-0 shadow bg-light rounded-0 img-card-hover">
+                        <img src="assets/img/pexels-caio-67112.jpg" alt="carte 1" class="card-img-top img-fluid rounded-0">
+                        <div class="card-body">
+                            <h4 class="card-title nunito fw-bold text-center">Premier Projet</h4>
+                            <p class="card-text nunito fw-bold text-center text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima id porro tempore.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="card p-4 pb-0 shadow bg-light rounded-0 img-card-hover">
+                        <img src="assets/img/pexels-pixabay-34225.jpg" alt="carte 1" class="card-img-top img-fluid rounded-0">
+                        <div class="card-body">
+                            <h4 class="card-title nunito fw-bold text-center">Premier Projet</h4>
+                            <p class="card-text nunito fw-bold text-center text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima id porro tempore.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bg-dark py-5" id="services">
+        <div class="container-flui container-md">
+            <h2 class="h2 text-center inconsolata fw-bold text-white">Services</h2>
+            <div class="row py-3">
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="card bg-dark border-0 d-flex flex-column align-items-center justify-content-center">
+                        <img src="assets/img/1457055665_Web_Design_icon-icons.com_54708.svg" alt="Design" class="card-img-top img-fluid p-5 pb-0 img-service">
+                        <div class="card-body text-white fw-bold">
+                            <h4 class="card-title nunito text-center">Design web</h4>
+                            <p class="card-text nunito text-muted text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto dignissimos voluptas beatae.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="card bg-dark border-0 d-flex flex-column align-items-center justify-content-center">
+                        <img src="assets/img/1457055662_Web_Development_icon-icons.com_54710.svg" alt="Design" class="card-img-top img-fluid p-5 pb-0 img-service">
+                        <div class="card-body text-white fw-bold">
+                            <h4 class="card-title nunito text-center">Design web</h4>
+                            <p class="card-text nunito text-muted text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto dignissimos voluptas beatae.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="card bg-dark border-0 d-flex flex-column align-items-center justify-content-center">
+                        <img src="assets/img/cloud_hosting_cloud_database_cloud_storage_computing_icon_190638.svg" alt="Design" class="card-img-top img-fluid p-5 pb-0 img-service">
+                        <div class="card-body text-white fw-bold">
+                            <h4 class="card-title nunito text-center">Design web</h4>
+                            <p class="card-text nunito text-muted text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto dignissimos voluptas beatae.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="card bg-dark border-0 d-flex flex-column align-items-center justify-content-center">
+                        <img src="assets/img/gui_gesture_one_finger_touch_icon_158449.svg" alt="Design" class="card-img-top img-fluid p-5 pb-0 img-service">
+                        <div class="card-body text-white fw-bold">
+                            <h4 class="card-title nunito text-center">Design web</h4>
+                            <p class="card-text nunito text-muted text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto dignissimos voluptas beatae.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="card bg-dark border-0 d-flex flex-column align-items-center justify-content-center">
+                        <img src="assets/img/iconfinder-databasecache-4417103_116645.svg" alt="Design" class="card-img-top img-fluid p-5 pb-0 img-service">
+                        <div class="card-body text-white fw-bold">
+                            <h4 class="card-title nunito text-center">Design web</h4>
+                            <p class="card-text nunito text-muted text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto dignissimos voluptas beatae.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="card bg-dark border-0 d-flex flex-column align-items-center justify-content-center">
+                        <img src="assets/img/think_idea_work_mind_thinking_icon_192534.svg" alt="Design" class="card-img-top img-fluid p-5 pb-0 img-service">
+                        <div class="card-body text-white fw-bold">
+                            <h4 class="card-title nunito text-center">Design web</h4>
+                            <p class="card-text nunito text-muted text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto dignissimos voluptas beatae.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
