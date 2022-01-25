@@ -1,0 +1,27 @@
+
+.floating {
+    animation: floating 10s ease-in-out 0s infinite;
+}
+
+@keyframes floating {
+    0%{
+        transform: rotate(30deg) translateY(0px);
+    }
+
+    25%{
+        transform: rotate(-30deg) translateY(200px);
+    }
+
+    50%{
+        transform: rotate(30deg) translateY(400px);
+    }
+
+
+    75%{
+        transform: rotate(-30deg)  translateY(600px);
+    }
+
+    100%{
+        transform: translateY(800px);
+    }
+}
