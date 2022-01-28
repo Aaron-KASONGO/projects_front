@@ -5,7 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/index.css">
     <script src="assets/bootstrap/js/bootstrap.min.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" defer></script>
+    <script src="assets/js/index.js" defer></script>
     <title>Vision</title>
 </head>
 <body>
@@ -24,14 +27,38 @@
             </nav>
         </div>
     </div>
-    <div class=" justify-content-center align-items-center vh-100">
-        <div class="container vh-100">
-            <form action="" class="h-100">
-                <div>
-                    <input type="text" class="form-control">
+    <div class="container-md container-fluid my-5">
+        <form>
+            <div class="row my-3">
+                <div class="col-8 offset-2">
+                    <input class="d-none" type="file" id="file" name="file-img" accept="image/*"/>
+                    <button type="button" class="btn btn-lg btn-outline-dark w-100" id="id-button">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-cloud-arrow-up-fill" viewBox="0 0 16 16">
+                            <path d="M8 2a5.53 5.53 0 0 0-3.594 1.342c-.766.66-1.321 1.52-1.464 2.383C1.266 6.095 0 7.555 0 9.318 0 11.366 1.708 13 3.781 13h8.906C14.502 13 16 11.57 16 9.773c0-1.636-1.242-2.969-2.834-3.194C12.923 3.999 10.69 2 8 2zm2.354 5.146a.5.5 0 0 1-.708.708L8.5 6.707V10.5a.5.5 0 0 1-1 0V6.707L6.354 7.854a.5.5 0 1 1-.708-.708l2-2a.5.5 0 0 1 .708 0l2 2z"/>
+                        </svg>
+                    </button>
                 </div>
-            </form>
-        </div>
+            </div>
+            <div class="d-none" id="id-div">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-12 col-md-6">
+                        <div class="card d-inline">
+                            <img class="card-img-top img-fluid img-size img-thumbnail bg-secondary" id="id-image">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 d-none">
+                        <div class="card d-inline">
+                            <img class="card-img-top img-fluid img-size" id="ig-image">
+                        </div>
+                    </div>
+                </div>
+                <div class="row d-flex justify-content-center">
+                    <div class="col-6">
+                        <button type="submit" class="btn btn-dark w-100">Valider</button>
+                    </div>
+                </div>
+            </div>
+        </form>
     </div>
 </body>
 </html>
