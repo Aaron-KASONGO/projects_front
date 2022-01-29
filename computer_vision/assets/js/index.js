@@ -17,4 +17,12 @@ $(document).ready(function() {
     $('#id-button').click(function() {
       $('#file').click();
     })
+
+    $('#accordion-button').click(function(event) {
+      event.preventDefault();
+    })
+
+    $('#accordion-button1').click(function(event) {
+      event.preventDefault();
+    })
 })
