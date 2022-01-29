@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $('#file').change(function(){
+    $('#id_img').change(function(){
         const file = this.files[0];
         console.log(file);
         if (file){
@@ -15,7 +15,7 @@ $(document).ready(function() {
     })
 
     $('#id-button').click(function() {
-      $('#file').click();
+      $('#id_img').click();
     })
 
     $('#accordion-button').click(function(event) {
