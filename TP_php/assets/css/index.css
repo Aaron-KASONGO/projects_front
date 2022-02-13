@@ -1,0 +1,10 @@
+.img-bg {
+    background-image: url(../img/pexels-bulbfish-1143754.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.card-square {
+    width: 60px;
+    height: 60px;
+}
