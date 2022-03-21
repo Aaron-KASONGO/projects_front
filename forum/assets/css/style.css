@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Montserrat:wght@200&family=Nunito:wght@200&family=Shalimar&family=Six+Caps&display=swap');
+
+/*css animation*/
+.img-card-hover:hover {
+    transform: scale(1.05);
+    transition: 1s;
+}
+
+.floating {
+    animation: floating 4s ease-in-out 0s infinite;
+}
+
+@keyframes floating {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(10px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+/*css for img*/
+.img-carousel {
+    background-size:cover;
+    height: 90vh;
+    filter: brightness(0.3);
+}
+
+.img-profil {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.img-service {
+    width: 250px;
+    height: 250px;
+}
+
+.img-containt {
+    background-size:cover;
+    height: 90vh;
+}
+
+.img-tech {
+    width: 20px;
+    height: 20px;
+}
+
+
+/** all fonts*/
+.ubuntu-mono {
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+.inconsolata {
+    font-family: 'Inconsolata', monospace;
+}
+
+.six-caps {
+    font-family: 'Six Caps', monospace;
+}
+
+.shalimar {
+    font-family: 'Shalimar', cursive;
+}
+
+.montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nunito {
+    font-family: 'Nunito', sans-serif;
+}
